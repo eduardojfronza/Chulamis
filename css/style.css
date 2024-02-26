@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 980px;
+    margin: 90px auto;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/* Cabeçalho */
+header {
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1b8e99;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+header nav a {
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 20px 10px;
+
+
+}
+
+header nav a:hover {
+    background-color: #92c9ce;
+}
+
+/* Banner principal */
+.banner {
+    width: 100%;
+    /* Na foto de exemplo está 134px, porem fica mais bonito com 350px */
+    height: 350px;
+
+    background-image: url('../img/banner.fw.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Submenu */
+.submenu {
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    background-color: #660000;
+}
+
+.submenu a {
+    color: white;
+    font-size: 12px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 10px;
+}
+
+.submenu a:hover {
+    background-color: white;
+    color: #660000;
+}

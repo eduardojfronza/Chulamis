@@ -87,18 +87,126 @@ header nav a:hover {
     color: #1c8e99;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    font-weight: bold;
     margin-bottom: 0px;
+}
+
+.servicos img {
+    height: 75px;
+    width: 125px;
+    
 }
 
 
 
 .linha {
     position: relative;
-    height: 2px;
+    height: 3px;
     width: 100%;
     border: none;
     background-color:#1c8e99;
     margin: 45px 0px 0px;
     right: 9.5%;
 
+
+}
+ 
+/* Blocos */
+.blocos-servicos {
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    padding: 0px;
+    margin-top: 20px;
+    
+}
+
+.bloco-servicos1 {
+    border: 0.5px solid #660000;
+    border-bottom-width: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 300px;
+}
+
+#titulo-servicos1 {
+    font-family: Tahoma;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color:#660000;
+
+}
+
+#texto-servicos1 {
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: 0;
+    color:#660000;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.bloco-servicos2 {
+    border: 0.5px solid #1b8e99;
+    border-bottom-width: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 300px;
+}
+
+#titulo-servicos2 {
+    font-family: Tahoma;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color:#1b8e99;
+
+}
+
+#texto-servicos2 {
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: 0;
+    color:#1b8e99;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.bloco-servicos3 {
+    border: 0.5px solid #660000;
+    border-bottom-width: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 300px;
+}
+
+#titulo-servicos3 {
+    font-family: Tahoma;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color:#660000;
+
+}
+
+#texto-servicos3 {
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: 0;
+    color:#660000;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: justify;
 }

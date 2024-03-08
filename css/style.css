@@ -76,6 +76,342 @@ header nav a:hover {
     color: #660000;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loja {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+
+}
+.produtos {
+    color: #660000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+
+
+
+    
+    
+
+.produtos h1 {
+
+    
+    font-family:tahoma;
+    font-weight: bold;
+
+}
+
+.red__line {
+    border-color: #660000;
+    width: 88%;
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+/* Grid de produtos */
+.lista__produtos {
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    padding: 0px;;
+    margin-top: 30px;
+    
+
+}
+/* Drone A */
+.produto__1 {
+    border: 0.5px solid #1b8e99;
+    
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 376px;
+    width: 300px;
+
+}
+
+/* título Drone A */
+.produto__1 h1 {
+    background-color:#1b8e99;
+    color:white; 
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    font-family: tahoma;
+    
+
+}
+
+/* Parágrafo Drone A */
+.produto__1 p {
+    text-align: left;
+    color:#1b8e99;
+    font-family: tahoma;
+    font-size: 13px;
+    padding: 10px;
+}
+
+/* Preço Drone A e C */
+.shopping-cart {
+    background-color: #1b8e99; /* Azul claro como na imagem fornecida */
+    background-size: cover;
+    color: white;
+    font-family: tahoma;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 20px;
+    padding: 0px;
+    height: 80px;
+    width: 100%
+    
+   
+}
+
+.price {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .price__2 {
+    font-size: 14px;
+     
+    
+}
+
+.cart_icon {
+  
+
+        width: 25px; /* Largura do ícone */
+        height: 25px; /* Altura do ícone */
+        background-color: white;
+        margin-left: 10px;
+    
+
+}
+
+/* Drone B */
+.produto__2 {
+    border: 0.5px solid #660000;
+    width: 300px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 376px;
+
+}
+/* título Drone B */
+.produto__2 h1 {
+    background-color: #660000;
+    color: white; 
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    font-family: tahoma;
+}
+/* Parágrafo Drone B */
+.produto__2 p {
+    text-align: left;
+    color:#1b8e99;
+    font-family: tahoma;
+    font-size: 13px;
+    padding: 10px;
+}
+
+/* Preço Drone B */
+.shopping_car2 {
+    background-color:#660000; /* vermelho como na imagem fornecida */
+    background-size: cover;
+    color: white;
+    font-family: tahoma;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 20px;
+    padding: 0px;
+    height: 80px;
+    width: 100%;
+  
+}
+
+
+
+/* Drone C */
+.produto__3 {
+    border: 0.5px solid #1b8e99;
+    width: 300px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 376px;
+
+
+}
+/* título Drone C */
+.produto__3 h1 {
+    background-color: #1b8e99;
+    color: white; 
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    font-family: tahoma;
+
+}
+
+/* Parágrafo Drone B */
+.produto__3 p {
+    text-align: left;
+    color:#1b8e99;
+    font-family: tahoma;
+    font-size: 13px;
+    padding: 10px;
+=======
 /* Serviços */
 
 .servicos {
@@ -210,3 +546,6 @@ header nav a:hover {
     margin-top: 10px;
     text-align: justify;
 }
+
+
+

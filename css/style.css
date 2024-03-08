@@ -9,6 +9,11 @@ body {
     font-size: 12px;
 }
 
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts//Tahoma-Regular-font.ttf');
+}
+
 /* Cabeçalho */
 header {
     height: 45px;
@@ -74,4 +79,152 @@ header nav a:hover {
 .submenu a:hover {
     background-color: white;
     color: #660000;
+}
+
+/* Loja virtual */
+
+.loja-virtual {
+    width: 100%;
+}
+
+/* Estilo da linha final do conteudo */
+.titulo-loja-virtual {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.titulo-loja-virtual div {
+    width: 100%;
+}
+
+.loja-virtual img {
+    width: 125px;
+    height: 77px;
+}
+
+.titulo-loja-virtual h2 {
+    color: #660000;
+    text-transform: uppercase;
+}
+
+.titulo-loja-virtual hr {
+    border-top: 2px solid #660000;
+}
+
+/* Conteudo Loja virtual */
+
+.conteudo-loja-virtual {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos reptidos dos cards */
+.card {
+    width: 315px;
+    height: 376px;
+}
+
+/* Estilos unicos dos cards */
+.bg-azul {
+    background-color: #1b8e99;
+}
+
+.bg-azul-claro {
+    background-color: rgb(224, 239, 241);
+}
+
+.borda-azul {
+    border: 1px solid #1b8e99;
+}
+
+.bg-vermelho {
+    background-color: #660000;
+}
+
+.bg-vermelho-claro {
+    background-color: rgb(230, 220, 220);
+}
+
+.borda-vermelho {
+    border: 1px solid #660000;
+}
+
+.fonte-vermelha {
+    color: #660000;
+}
+
+
+/* Estilos da descrição do card */
+.descricao {
+    width: 100%;
+    height: 280px;
+}
+
+.descricao h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.descricao p {
+    color: #1b8e99;
+    font-size: 13px;
+    font-family: 'Tahoma';
+    text-align: start;
+    padding: 0 20px;
+}
+
+.descricao .nome-produto {
+    color: #1b8e99;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.descricao img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Estilo dos preços */
+.precos {
+    height: 96px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precos div {
+   padding: 0 5px;
+}
+
+
+.precos p {
+    font-family: 'Tahoma';
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.precos span {
+    font-family: 'Tahoma';
+    font-size: 14px;
+    color: #fff;
+}
+
+.precos img {
+    width: 115px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: #fff;
+    object-fit: contain;
+}
+
+.divisoria {
+    margin-top: 15px;
+    border: 10px solid gray;
 }
